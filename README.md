@@ -1,7 +1,7 @@
 # hospital
 Hospital
 
-<style>.home{
+  <style type="text/css">.home{
 
          text-align:center;
 
