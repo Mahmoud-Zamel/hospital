@@ -1,4 +1,4 @@
-<div class="home" text-align:center><a class="home" href="delengathosssptal.html" >الصفحة الرئيسة</a></div>
+<div class="home" align="center" font-size="70"><a class="home" href="delengathosssptal.html" >الصفحة الرئيسة</a></div>
 
   
 
