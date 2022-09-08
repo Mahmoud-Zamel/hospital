@@ -2,7 +2,10 @@
 Hospital
 
   
-  <div class="home"<style type="text/css">.home{
+  <div class="home"<s <div class="home"<style
+
+
+
 
          text-align:center;
 
@@ -10,7 +13,7 @@ Hospital
 
          text-shadow: 1px 1px 1px red;
 
-         background-color:#fffde7;
+und-color:#fffde7;
 
          color:blue;
 
@@ -18,20 +21,20 @@ Hospital
 
          height:160px;
 
-         border-radius:45%;
 
-         margin:auto;
 
-         padding:8px;
 
-         border-style:solid;
 
-         border-width:1px;
 
-         border-color:#2196f3 green red green;
 
-         box-shadow: 3px 4px 3px 1px #ef5350 ,6px 8px 6px 2px green ,9px 12px 9px 1px yellow;
+
+
+
+
+  d green;
+
+ow;
 
          
 
-          }</style>><a class="home" href="delengathosssptal.html" >الصفحه الرئيسيه</a></div>
+          </style>><a class="home" href="delengathosssptal.html" >الصفحه الرئيسيه</a></div>
