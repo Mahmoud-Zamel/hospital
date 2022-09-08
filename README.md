@@ -1,7 +1,8 @@
 # hospital
 Hospital
 
-  <style type="text/css">.home{
+  
+  <div class="home"<style type="text/css">.home{
 
          text-align:center;
 
@@ -33,5 +34,4 @@ Hospital
 
          
 
-          }</style>
-  <div class="home"><a class="home" href="delengathosssptal.html" >الصفحه الرئيسيه</a></div>
+          }</style>><a class="home" href="delengathosssptal.html" >الصفحه الرئيسيه</a></div>
