@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Al Dalangat Central Hospital - Medical Maintenance Department</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+	
+	
+	body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	}
+	
+	header {
+	background-color: #003366;
+	color: #fff;
+	padding: 20px;
+	}
+	
+	nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+	
+	nav li {
+	display: inline-block;
+	margin-right: 20px;
+	}
+	
+	nav a {
+	color: #fff;
+	text-decoration: none;
+	}
+	
+	section {
+	margin: 20px;
+	}
+	
+	#search form {
+	display: inline-block;
+	}
+	
+	#search label {
+	display: inline-block;
+	width: 100px;
+	}
+	
+	#search input[type="text"],
+	#search input[type="submit"] {
+	padding: 5px;
+	}
+	
+	#login label {
+	display: inline-block;
+	width: 100px;
+	}
+	
+	#login input[type="text"],
+	#login input[type="password"],
+	#login input[type="submit"] {
+	padding: 5px;
+	}
+	
+	#device-data table {
+	border-collapse: collapse;
+	}
+	
+	#device-data th,
+	#device-data td {
+	padding: 5px;
+	border: 1px solid #ccc;
+	}
+	
+	#device-data th {
+	background-color: #003366;
+	color: #fff;
+	}
+	
+	#device-data td button {
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+	}
+	
+	#device-data td button:hover {
+	background-color: #3e8e41;
+	}
+	
+	footer {
+	background-color: #ccc;
+	padding: 10px;
+	text-align: center;
+	}
+	
+	
+	
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Al Dalangat Central Hospital - Medical Maintenance Department</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Departments</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="search">
+		<h2>Search Devices</h2>
+		<form>
+			<label for="device-name">Device Name:</label>
+			<input type="text" id="device-name" name="device-name"><br>
+
+			<label for="serial-number">Serial Number:</label>
+			<input type="text" id="serial-number" name="serial-number"><br>
+
+			<label for="model">Model:</label>
+			<input type="text" id="model" name="model"><br>
+
+			<input type="submit" value="Search">
+		</form>
+	</section>
+
+	<section id="login">
+		<h2>Login</h2>
+		<form>
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username"><br>
+
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password"><br>
+
+			<input type="submit" value="Login">
+		</form>
+	</section>
+
+	<section id="device-data">
+		<h2>Device Data</h2>
+		<table>
+			<thead>
+				<tr>
+					<th>Device Name</th>
+					<th>Model</th>
+					<th>Serial Number</th>
+					<th>Date of Operation</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Device 1</td>
+					<td>Model 1</td>
+					<td>Serial 1</td>
+					<td>01/01/2023</td>
+					<td><button>Edit</button></td>
+				</tr>
+				<tr>
+					<td>Device 2</td>
+					<td>Model 2</td>
+					<td>Serial 2</td>
+					<td>02/01/2023</td>
+					<td><button>Edit</button></td>
+				</tr>
+				<tr>
+					<td>Device 3</td>
+					<td>Model 3</td>
+					<td>Serial 3</td>
+					<td>03/01/2023</td>
+					<td><button>Edit</button></td>
+				</tr>
+			</tbody>
+		</table>
+		<button>Add New Device</button>
+	</section>
+
+	<footer>
+		<p>&copy; Al Dalangat Central Hospital</p>
+	</footer>
+</body>
+</html>
